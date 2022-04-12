@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">แอปพลิเคชั่นค้นหาร้านซ่อมรถยนต์</string>
+    <string name="api_key">AIzaSyDUxFEu4Sz5U1Fsu22mjlc88HF9ecvNNG0</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
