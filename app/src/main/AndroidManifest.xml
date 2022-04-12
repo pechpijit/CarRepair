@@ -19,10 +19,13 @@
         android:theme="@style/Theme.CarRepair"
         tools:targetApi="n">
         <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+        <activity
             android:name=".AdminActivity"
-            android:screenOrientation="fullSensor"
             android:exported="false"
-            android:theme="@style/Theme.CarRepair.NoActionBar"/>
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.CarRepair.NoActionBar" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
@@ -30,9 +33,9 @@
 
         <activity
             android:name=".MapsActivity"
-            android:screenOrientation="fullSensor"
             android:exported="false"
-            android:label="@string/title_activity_maps" />
+            android:label="@string/title_activity_maps"
+            android:screenOrientation="fullSensor" />
         <activity
             android:name=".SplashActivity"
             android:exported="true"
@@ -46,20 +49,20 @@
         </activity>
         <activity
             android:name=".SignInActivity"
-            android:screenOrientation="fullSensor"
             android:exported="false"
+            android:screenOrientation="fullSensor"
             android:theme="@style/Theme.CarRepair.NoActionBar" />
         <activity
             android:name=".MainActivity"
-            android:screenOrientation="fullSensor"
             android:exported="false"
+            android:screenOrientation="fullSensor"
             android:theme="@style/Theme.CarRepair.NoActionBar" />
         <activity
             android:name=".DetailActivity"
-            android:windowSoftInputMode="stateUnchanged"
-            android:screenOrientation="fullSensor"
             android:exported="false"
-            android:theme="@style/Theme.CarRepair.NoActionBar" />
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.CarRepair.NoActionBar"
+            android:windowSoftInputMode="stateUnchanged" />
     </application>
 
 </manifest>
